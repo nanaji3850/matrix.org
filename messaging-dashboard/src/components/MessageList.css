@@ -1,0 +1,84 @@
+/* Style for the entire message list section */
+.message-list-container {
+    background-color: #A6B37D;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.message-entry {
+    padding: 10px;
+    border-radius: 8px; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+/* Style for message content */
+.message-content {
+    flex: 1; 
+    margin-left: 10px;
+}
+
+/* Platform-specific styles */
+.message-entry.WhatsApp {
+    background-color: #25D366; 
+    color: white; 
+}
+
+.message-entry.Slack {
+    background-color: #4A154B; 
+    color: white; 
+}
+
+.message-entry.Matrix {
+    background-color: #00B2A9; 
+    color: white; 
+}
+
+.message-entry.unknown {
+    background-color: #e0e0e0; 
+    color: black; 
+}
+
+/* Style for icons */
+.message-icon {
+    width: 24px; 
+    height: 24px; 
+    border-radius: 50%; 
+}
+
+/* Style for reply form */
+.reply-form {
+    margin-top: 20px; 
+    padding: 10px;
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.reply-form textarea {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    background-color: #ffffff; 
+    resize: vertical; 
+}
+
+.reply-form button {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+}
+
+.reply-form button:hover {
+    background-color: #0056b3; 
+}
